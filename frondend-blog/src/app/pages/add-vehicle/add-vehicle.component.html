@@ -1,0 +1,54 @@
+
+<form class="form" [formGroup]="vehicleForm" (submit)="addVehicle()">
+    <div class="card-body">
+     
+        <h1>vehiculo</h1>
+          <div class="form-group">
+            <label for="exampleInputPassword1">Ingresa la placa</label>
+            <input type="text"  formControlName="placa" class="form-control" id="exampleInputPassword1" >
+          </div>
+  
+          <div class="form-group">
+            <label for="exampleInputPassword1">Ingresa el color</label>
+            <input type="text"  formControlName="color" class="form-control" id="exampleInputPassword1" >
+          </div>
+     
+        <div class="form-group">
+        <label for="exampleInputPassword1">Ingresa la marca</label>
+        <input type="text"  formControlName="marca" class="form-control" id="exampleInputPassword1" >
+      </div>
+
+      <div class="form-group">
+        <label for="exampleInputPassword1">Documento Conductor</label>
+        <input type="text"  formControlName="docConductor" class="form-control" id="exampleInputPassword1" >
+      </div>
+      <div class="form-group">
+        <label for="exampleInputPassword1">Documento propietario</label>
+        <input type="text"  formControlName="docPropietario" class="form-control" id="exampleInputPassword1" >
+      </div>
+
+      <div class="form-group">
+        <label for="exampleInputPassword1">Ingresa el tipo de vehiculo </label>
+        <br>
+      <select formControlName="tipoVehiculo">
+        <option value="particular">particular</option>
+        <option value="publico">publico</option>
+
+      </select>
+
+      </div>
+     
+  
+      
+     
+  
+    </div>
+    <!-- /.card-body -->
+  
+    <div class="card-footer">
+      <button type="submit" class="btn btn-primary">Submit</button>
+    </div>
+  </form>
+  <div class="card-footer">
+  <li routerLink="/dashboard/vehicle"  class= "fa-solid fa-rotate-left"></li> </div>
+  

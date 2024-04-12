@@ -1,0 +1,52 @@
+<div class="col-12">
+    <div class="card">
+        <div class="card-header">
+            <h1 class="card-title">REPORTE </h1>
+
+           
+            <!-- /.card-header -->
+            <div class="card-body table-responsive p-0">
+                <table class="table table-hover text-nowrap">
+                    <thead>
+                        <tr>
+                            <th>conductor</th>
+                            <th>propietario</th>
+                            <th>placa</th>
+                            <th>marca</th>
+                           
+
+
+
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr *ngFor="let report of report">
+                            <td>
+                                {{report.NombreConductor}}
+                            </td>
+                            <td>
+                                {{report.NombrePropietario}}
+                            </td>
+
+                            <td>
+                                {{report.placa}}
+                            </td>
+
+                            <td>
+                                {{report.marca}}
+                            </td>
+
+
+
+
+
+                        </tr>
+
+
+                    </tbody>
+                </table>
+            </div>
+            <!-- /.card-body -->
+        </div>
+        <!-- /.card -->
+    </div>

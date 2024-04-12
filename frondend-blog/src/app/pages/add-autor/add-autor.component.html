@@ -1,0 +1,56 @@
+
+<form class="form" [formGroup]="onwerForm" (submit)="addOnwer()">
+    <div class="card-body">
+     
+        <h1>PROPIETARIO</h1>
+          <div class="form-group">
+            <label for="exampleInputPassword1">Ingresa el Nombre del propietario</label>
+            <input type="text"  formControlName="primerNomb" class="form-control" id="exampleInputPassword1" >
+          </div>
+
+          <div class="form-group">
+            <label for="exampleInputPassword1">Ingresa el Segundo  Nombre del propietario</label>
+            <input type="text"  formControlName="segundoNom" class="form-control" id="exampleInputPassword1" >
+          </div>
+     
+        <div class="form-group">
+        <label for="exampleInputPassword1">Ingresa el apellido</label>
+        <input type="text"  formControlName="apellidos" class="form-control" id="exampleInputPassword1" >
+      </div>
+      <div class="form-group">
+        <label for="exampleInputPassword1">Ingresa la direccion </label>
+        <input type="text"  formControlName="direccion" class="form-control" id="exampleInputPassword1" >
+      </div>
+      <div class="form-group">
+        <label for="exampleInputPassword1">Ingresa el telefono</label>
+        <input type="text"  formControlName="telefono" class="form-control" id="exampleInputPassword1" >
+      </div>
+
+
+      
+     
+
+      <div class="form-group">
+        <label for="exampleInputPassword1">Ingresa el número de cédula</label>
+        <input type="text"  formControlName="numCedula" class="form-control" id="exampleInputPassword1" >
+      </div>
+
+
+      <div class="form-group">
+        <label for="exampleInputPassword1">Ingresa la placa de vehiculo</label>
+        <input type="text"  formControlName="placa" class="form-control" id="exampleInputPassword1" >
+      </div>
+      <div class="form-group">
+        <label for="exampleInputPassword1">Ingresa la ciudad</label>
+        <input type="text"  formControlName="ciudad" class="form-control" id="exampleInputPassword1" >
+      </div>
+     
+     </div>
+    <!-- /.card-body -->
+
+    <div class="card-footer">
+      <button type="submit" class="btn btn-primary">Submit</button>
+    </div>
+  </form>
+  <div class="card-footer">
+  <li routerLink="/dashboard/onwer"  class= "fa-solid fa-rotate-left"></li> </div>

@@ -1,0 +1,81 @@
+
+  <div class="col-12">
+    <div class="card">
+      <div class="card-header">
+        <h1 class="card-title">Registro  de conductores  </h1>
+
+        <div class="card-tools">
+          <div class="input-group input-group-sm" style="width: 150px;">
+            <button  routerLink="/dashboard/add-driver" class="fa-sharp fa-solid fa-plus">nuevo</button> 
+       
+            <br>
+            <div class="input-group-append"> 
+                
+       
+              
+          </div>
+        </div>
+      </div>
+      <!-- /.card-header -->
+      <div class="card-body table-responsive p-0">
+        <table class="table table-hover text-nowrap">
+          <thead>
+            <tr>
+              <th>primer nombre</th>
+              <th>segundo nombre</th>
+              <th>apellidos</th>
+              <th>direccion</th>
+              <th>cedula</th>
+              <th>telefono</th>
+              <th>ciudad</th>
+              <th>placa</th>
+              
+             
+           
+            </tr>
+          </thead>
+          <tbody>
+            <tr *ngFor="let dirver of listDriver">
+              <td >
+                {{dirver.primerNomb}}
+              </td>
+              <td >
+                {{dirver.segundoNom}}
+              </td>
+
+              <td >
+                {{dirver.apellidos}}
+              </td>
+
+              <td >
+                {{dirver.direccion}}
+              </td>
+
+              <td >
+                {{dirver.numCedula}}
+              </td>
+
+              <td >
+                {{dirver.telefono}}
+              </td>
+
+              <td >
+                {{dirver.ciudad}}
+              </td>
+
+              <td >
+                {{dirver.placa}}
+              </td>
+            
+             
+
+            </tr>
+      
+   
+          </tbody>
+        </table>
+      </div>
+      <!-- /.card-body -->
+    </div>
+    <!-- /.card -->
+  </div>
