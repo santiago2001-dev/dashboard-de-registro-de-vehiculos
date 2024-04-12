@@ -13,6 +13,8 @@ export class SidebarService {
         {titulo : 'propietarios',url : 'onwer',icono : 'fa fa-users'},
         {titulo : 'conductores',url : 'driver',icono : 'fa-solid fa-truck'},
         {titulo : 'vehiculos',url : 'vehicle',icono : 'fa-solid fa-car'},
+        {titulo : 'informe',url : 'informe',icono : 'fa-solid fa-clipboard'},
+
       ]
     }
   ]
