@@ -20,6 +20,7 @@ export class DirverService {
     let url = this.server;
     return this.http.get(`${url}/${id}`);
   }
+  
 
   postDriver(driver: onwer): Observable<any> {
     let url = this.server;
