@@ -12,8 +12,8 @@
 
 - Con el comando npm i instalamos las dependencias de node js 
 - Levantamos nuestra app con el comando "ng serve --o"
-- ya podremos consumir nuestro dashboard 
-#conexion db
+- ya podremos consumir nuestro dashboard. 
+# Conexion db
 DB_CONNECTION=mysql
 DB_HOST=localhost
 DB_PORT=3306
