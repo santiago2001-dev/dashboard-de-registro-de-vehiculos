@@ -1,5 +1,5 @@
 #Descripcion 
-- Un dashboard que guarda el registro de conductores , vehiculos y propietarios relizando un reporte de cada uno de ellos y uno con cada uno de los datos relacionados por la placa del vehiculo.
+- Un dashboard que guarda el registro de conductores , vehiculos y propietarios relizando un reporte de cada uno de ellos y uno con cada uno de los datos relacionados por la placa del vehículo.
 
 
 #Instalación 
